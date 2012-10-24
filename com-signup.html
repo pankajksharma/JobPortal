@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Job Portal | Company SignUp</title>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet"/>
+    <link href="css/bootstrap-responsive.css" rel="stylesheet"/>
+  </head>
+<body>
+  <div class="navbar">
+    <div class="navbar-inner">
+      <a class="brand" href="#">Job Portal</a>
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li class="dropdown active">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sign Up <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="ind-signup.html">As Individual</a></li>
+                        <li class="active"><a href="com-signup.html">As Company</a></li>
+                    </ul>
+                  </li>
+                </ul>
+      <form class="navbar-form pull-right">
+              <input class="span2" type="text" placeholder="Email">
+              <input class="span2" type="password" placeholder="Password">
+              <button type="submit" class="btn">Login</button>
+            </form>
+    </div>
+  </div>
+  <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span3">
+          <div class="well sidebar-nav">
+            <ul class="nav nav-list">
+              <li class="nav-header">Latest Job</li>
+              <li><a href="#">Job 1</a></li>
+              <li><a href="#">Job 2</a></li>
+              <li><a href="#">Job 3</a></li>
+              <li><a href="#">Job 4</a></li>
+              <li class="nav-header">Hot Jobs</li>
+              <li><a href="#">Job 1</a></li>
+              <li><a href="#">Job 2</a></li>
+              <li><a href="#">Job 3</a></li>
+              <li><a href="#">Job 4</a></li>
+              <li><a href="#">Job 5</a></li>
+              <li><a href="#">Job 6</a></li>
+              <li class="nav-header">Freshers' Jobs</li>
+              <li><a href="#">Job 1</a></li>
+              <li><a href="#">Job 2</a></li>
+              <li><a href="#">Job 3</a></li>
+            </ul>
+          </div><!--/.well -->
+        </div><!--/span-->
+        <div class="span9">
+          <form>
+              <legend>Sign Up to give your search a better place.</legend>
+              <label>Company name</label>
+              <input type="text" placeholder="Company Name" required>
+              <label>Company Address</label>
+              <input type="text" placeholder="Address of Company">
+              <label>Contact Number</label>
+              <input type="number" placeholder="Contact Number" required>              
+              <label>Email-id</label>
+              <input type="email" placeholder="Email-id" required>
+              <label>Password</label>
+              <input type="password" placeholder="Password" required>
+              <label>Repeat-Password</label>
+              <input type="password" placeholder="Repeat Password" required>
+                  <!--<span class="help-block">Example block-level help text here.</span>-->
+              <label class="checkbox">
+              <input type="checkbox" required> I've read all the Terms and Conditions of JobPortal.
+              </label>
+              <button type="submit" class="btn">Submit</button>
+          </form>
+        </div><!--/span-->
+      </div><!--/row-->
+
+      <hr>
+
+      <footer>
+        <p>&copy; JobPortal 2012</p>
+      </footer>
+
+    </div>
+    <script type="text/javascript">
+      $('.dropdown-toggle').dropdown();
+    </script>
+    <script type="text/javascript" src="js/bootstrap-dropdown.js"></script>
+</body>
+</html>
